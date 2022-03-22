@@ -1,5 +1,5 @@
 # pull the Node.js Docker image
-FROM node:alpine
+FROM public.ecr.aws/docker/library/node:alpine
 
 # create the directory inside the container
 WORKDIR /usr/src/app
