@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/node:alpine as builder
+FROM public.ecr.aws/docker/library/node:16-alpine as builder
 WORKDIR /app
 COPY package*.json ./
 RUN npm install --silent
